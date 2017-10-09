@@ -19,7 +19,7 @@ function chartData(data) {
   //let's log the new arrays to see if it worked
   console.log (countries)
   console.log (population)
-
+}
   
 var dataNew = {
   // A labels array that can contain any sort of values
@@ -35,7 +35,6 @@ var dataNew = {
 // is the actual data object.
 new Chartist.Line('.ct-chart', dataNew);
 
-}
 
 
 
