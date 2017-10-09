@@ -10,7 +10,7 @@ function getJsonResponse(response) {
 }
 
 function chartData(data) {
-  return countries = data.slice(0, 5).map(function(a) {return a.name;})
+  var countries = data.slice(0, 5).map(function(a) {return a.name;})
   var population = data.slice(0, 5).map(function(a) {return a.population;})
 
   //let's log the new arrays to see if it worked
