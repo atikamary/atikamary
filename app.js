@@ -4,6 +4,9 @@ fetch('https://restcountries.eu/rest/v1')
 .then(getJsonResponse)
 .then(chartData)
 
+function getJsonResponse(response) {
+  return response.json()
+}
 
 function chartData(data) {
   //a quick check to see if we're getting data from the api
